@@ -17,6 +17,6 @@ public class WelcomeController {
     @GetMapping(value = "/customer")
     public CustomerDto get() {
         return CustomerDto.builder().phone("03009215979").id(1).status(true)
-                .name("Tahir Saleem").email("developer.tahirghori").build();
+                .name("Tahir Ghori").email("developer.tahirghori").build();
     }
 }
